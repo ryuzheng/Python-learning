@@ -4,11 +4,12 @@
 
 文件格式：
 
-> exon1  start_position  end_position  exon_sequence
+```html
+exon1  start_position  end_position  exon_sequence
+exon2  start_position  end_position  exon_sequence
+......
+```
 
-> exon2  start_position  end_position  exon_sequence
-
-> ......
 
 注： 不同列用tab键分割
 
