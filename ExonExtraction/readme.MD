@@ -4,14 +4,16 @@
 
 文件格式：
 
->exon1  start_position  end_position  exon_sequence
->exon2  start_position  end_position  exon_sequence
->......
+> exon1  start_position  end_position  exon_sequence
+
+> exon2  start_position  end_position  exon_sequence
+
+> ......
 
 注： 不同列用tab键分割
 
 对文件tp53UnigeneExon.txt中内容的注释：
 
- - 小写字母代表内含子（intron）
- - 大写字母代表外显子（exon）
- - 数字（如：7590914）：是所在行最后一个字母在染色体上的位置
+- 小写字母代表内含子（intron）
+- 大写字母代表外显子（exon）
+- 数字（如：7590914）：是所在行最后一个字母在染色体上的位置
