@@ -1,13 +1,19 @@
 import re
 sequence=''
 exonSequence=''
+a=0
 p=0
 s=0
 exon=1
 with open('tp53UnigeneExon.txt','r')as f1,open('Exon.txt','w')as f2,open('sequence.txt','w')as f3:
     next(f1)
     readLines=(f1.readlines())
-    startLine=readLines[2]
+    while a < len(readLines)-1:
+        print(len(readLines[a]))
+        if len(readLines[a])>1:
+            break
+        a+=1
+    startLine=readLines[a]
     print(startLine)
     startNum=int(re.findall('\d+',startLine)[0])+len(re.findall('[A-Za-z]',startLine))-1
     print(startNum)
