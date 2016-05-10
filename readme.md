@@ -7,7 +7,7 @@
 - [Exon Extration](https://github.com/ryuzheng/Python-learning/tree/master/Biology/ExonExtraction) (fetch exon sequence from text files like fasta)
 - [chr17.fa](https://github.com/ryuzheng/Python-learning/tree/master/Biology/chr17.fa) (to intercept a part of sequence from text files like fasta)
 - [merge-files](https://github.com/ryuzheng/Python-learning/tree/master/Biology/merge-files) (merge files in folders with same prefix)
-- [phred2quality](https://github.com/ryuzheng/Python-learning/tree/master/Biology/phred2quality) (Not Python, caculate Phred-Score to quality value(pertages) with several types Phred-Score)
+- [phred2quality](https://github.com/ryuzheng/Python-learning/tree/master/Biology/phred2quality) (Not Python(JavaScript), caculate Phred-Score to quality value(pertages) with several types Phred-Score)
 
 ##ROSALIND problems
 
