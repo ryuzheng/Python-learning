@@ -1,4 +1,4 @@
-#[Identifying Unknown DNA Quickly](http://rosalind.info/problems/gc/)
+#[Computing GC Content](http://rosalind.info/problems/gc/)
 
 ##Problem
 
@@ -8,9 +8,11 @@ DNA strings must be labeled when they are consolidated into a database. A common
 
 In Rosalind's implementation, a string in FASTA format will be labeled by the ID "Rosalind_xxxx", where "xxxx" denotes a four-digit code between 0000 and 9999.
 
-###Given: At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
+###Given: 
+At most 10 DNA strings in FASTA format (of length at most 1 kbp each).
 
-###Return: The ID of the string having the highest GC-content, followed by the GC-content of that string. Rosalind allows for a default error of 0.001 in all decimal answers unless otherwise stated; please see the note on absolute error below.
+###Return: 
+The ID of the string having the highest GC-content, followed by the GC-content of that string. Rosalind allows for a default error of 0.001 in all decimal answers unless otherwise stated; please see the note on absolute error below.
 
 ##Sample Dataset
 
