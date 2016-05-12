@@ -7,7 +7,7 @@
 - [Exon Extration](https://github.com/ryuzheng/Python-learning/tree/master/Biology/ExonExtraction) (fetch exon sequence from text files like fasta)
 - [chr17.fa](https://github.com/ryuzheng/Python-learning/tree/master/Biology/chr17.fa) (to intercept a part of sequence from text files like fasta)
 - [merge-files](https://github.com/ryuzheng/Python-learning/tree/master/Biology/merge-files) (merge files in folders with same prefix)
-- [phred2quality](https://github.com/ryuzheng/Python-learning/tree/master/Biology/phred2quality) (Not Python(JavaScript), caculate Phred-Score to quality value(pertages) with several types Phred-Score)
+- [phred2quality](https://github.com/ryuzheng/Python-learning/tree/master/Biology/phred2quality) (Not Python(use JavaScript), caculate Phred-Score to quality value(pertages) with several types Phred-Score)
 
 ##ROSALIND problems
 
@@ -16,3 +16,4 @@
 - [Complementing a Strand of DNA](https://github.com/ryuzheng/Python-learning/tree/master/rosalind/problems/revc)
 - [Evolution as a Sequence of Mistakesclick to expand](https://github.com/ryuzheng/Python-learning/tree/master/rosalind/problems/hamm)
 - [Computing GC Content](https://github.com/ryuzheng/Python-learning/tree/master/rosalind/problems/gc)
+- [Translating RNA into Protein](https://github.com/ryuzheng/Python-learning/tree/master/rosalind/problems/prot)
