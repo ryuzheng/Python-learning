@@ -24,6 +24,7 @@ with open('tp53UnigeneExon.txt','r')as f1,open('Exon.txt','w')as f2,open('sequen
     sequence='a'+sequence#在序列前加一个内含子，解决序列一开始就是外显子的bug
     while p<(len(sequence)-1):
         if (sequence[p].islower() and sequence[p+1].isupper()):
+            exonSequence=""
             print(p)
             startPosition=startNum-(p+1)+1
             s=p+1
