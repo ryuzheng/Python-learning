@@ -52,9 +52,18 @@
 #
 #
 class Solution:
-    def removeDuplicates(self, nums):
-        new_nums = list(set(nums))
-        new_nums.sort()
-        for x in range(0, len(new_nums)):
-            nums[x] = new_nums[x]
-        return len(new_nums)
+    def removeDuplicates(self, nums: List[int]) -> int:
+        # new_nums = list(set(nums))
+        # new_nums.sort()
+        # for x in range(0, len(new_nums)):
+        #     nums[x] = new_nums[x]
+        # return len(new_nums)
+        # NOTE: 不要使用额外的数组空间
+        if not nums:
+            return 0
+        i = 0
+        for j in range(1, len(nums)):
+            if nums[i] != nums[j]:
+                i += 1
+                nums[i] = nums[j]
+        return i + 1
