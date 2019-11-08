@@ -7,7 +7,7 @@ A recurrence relation is a way of defining the terms of a sequence with respect 
 
 When finding the nn-th term of a sequence defined by a recurrence relation, we can simply use the recurrence relation to generate terms for progressively larger values of nn. This problem introduces us to the computational technique of dynamic programming, which successively builds up solutions by using the answers to smaller cases.
 
-### Given: Positive integers n≤40n≤40 and k≤5k≤5.
+### Given: Positive integers n≤40 and k≤5.
 
 ### Return: The total number of rabbit pairs that will be present after nn months, if we begin with 1 pair and in each generation, every pair of reproduction-age rabbits produces a litter of kk rabbit pairs (instead of only 1 pair).
 
